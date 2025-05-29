@@ -1,5 +1,6 @@
 Interview-Questions and answers --- AWS-DevOps
-  This repository contains a curated list of AWS DevOps interview questions and answers from various sources designed to help devops folks prepare effectively for interviews. The questions and answers cover a wide range of DevOps tools and practices.
+
+This repository contains a curated list of AWS DevOps interview questions and answers which is written in my words from various sources designed to help devops folks prepare effectively for interviews. The questions and answers cover a wide range of DevOps tools and practices.
 
 Tech Stack Covered
 The questions,answers and examples in this repository encompass the following technologies and tools commonly used in DevOps workflows:
