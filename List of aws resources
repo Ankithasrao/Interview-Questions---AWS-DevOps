@@ -1,0 +1,34 @@
+#!/bin/bash
+
+# Check if AWS CLI is installed
+if ! command -v aws &> /dev/null; then
+    echo "AWS CLI is not installed. Please install it and try again."
+    exit 1
+fi
+
+# List EC2 instances
+echo "Listing EC2 Instances:"
+aws ec2 describe-instances --query "Reservations[*].Instances[*].{ID:InstanceId,Type:InstanceType,State:State.Name}" --output table
+echo
+
+# List S3 buckets
+echo "Listing S3 Buckets:"
+aws s3 ls
+echo
+
+# List IAM users
+echo "Listing IAM Users:"
+aws iam list-users --query "Users[*].{UserName:UserName,CreationDate:CreateDate}" --output table
+echo
+
+# List RDS instances
+echo "Listing RDS Instances:"
+aws rds describe-db-instances --query "DBInstances[*].{ID:DBInstanceIdentifier,Engine:Engine,Status:DBInstanceStatus}" --output table
+echo
+
+# List Lambda functions
+echo "Listing Lambda Functions:"
+aws lambda list-functions --query "Functions[*].{Name:FunctionName,Runtime:Runtime}" --output table
+echo
+
+echo "AWS Resource Listing Completed!"
