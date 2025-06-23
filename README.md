@@ -1,8 +1,7 @@
 Interview-Questions --- AWS-DevOps
 
-This repository contains a curated list of AWS DevOps interview questions from various sources designed to help devops folks prepare effectively for interviews. The questions cover a wide range of DevOps tools and practices.
+This repository contains a curated list of AWS DevOps interview questions from various sources.
 
-Tech Stack Covered
 The questions and examples in this repository encompass the following technologies and tools commonly used in DevOps workflows:
 
 1. Infrastructure as Code (IaC): Terraform, CloudFormation
