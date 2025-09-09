@@ -1,0 +1,39 @@
+KPIT Interview 
+
+1. Difference between Git and GitHub.
+2. what is git fetch and git rebase.
+3. Workflow of GitHub
+4. Explain Kubernetes.
+5. How to optimize DockerFile.
+6. How to get the processes in Linux.
+7. Explain the command to find the files.
+8. Suppose if u have an empty file and u need to list the processes which has the word "abc" in it.
+9.  Explain shared library concept with an example.
+10. Explain Prometheus and Grafana project, complete overview, set up.
+11. Mention the repositories in JFrog GUI.
+12. How can you integrate Jenkins and Sonar.
+13. What are steps involved in checking the code quality metrics for the project.
+14. Write a shell script, for finding a greatest number in an array of 5 numbers.
+15. Explain Jenkins agent.
+16. Explain how to create a custom docker file.
+17. What are the different roles in AWS IAM.
+18. Explain AWS IAM, and Route53.
+19. What is EKS, and how did u use it in your project.
+20. What are the different services AWS provides.
+21. Explain Ansible and how have u used ansible in your project.
+22. Explain how have you used Terraform in your project.
+23. What is the difference b/w Ansible and Terraform.
+24. How do you get to know that the project given is a GitHub project. 
+25. Explain the concept of regions in AWS EC2.
+26. Explain the concept of VPC and EBS in AWS.
+27. What is Ingress in Kubernetes.
+28. What are inodes, explain with an example.
+29. Explain the concepts of Cron-jobs.
+30. Do you have separate Jenkins servers for each environment?
+31. How did you maintained a roll-back strategy of the CICD pipeline in Jenkins ?
+
+
+
+
+
+
