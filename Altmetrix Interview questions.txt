@@ -1,0 +1,72 @@
+How to handle the multiple aws account 
+what is aws organization 
+suppose i have an object in one account in s3 a how i will copy the content to the B account storage.
+when we run kubectl apply -f deployment what will happen 
+what is aws auto scaling 
+how to set up jenkins master and slave configuration 
+what is diff between state file and tf.var
+what is modules in terraform
+How to create kuebenertes secrets for an service account
+How to create IAM role to service account
+what is release strageris and branching stragey
+diff between git fecth and git pull 
+how to resolve git conflict 
+what are auto scaling policies 
+what is aws lambda and step functions 
+how to copy s3 data via cross acount 
+how to set up cross account roles in AWS tell step by step 
+Suppose if you got an error permission denied while copying date in s3 what will tod do troubleshoot
+what is s3 storage what are different type of storages
+what is IRSA
+EXPLAIN k8 arch
+
+
+Introduce yourself?
+How the Ansible roles are using in your organization?
+After deployment in Production, how will get to know that everything is working fine or not?
+How the Deployments steps will be there in production? like Developer will test or QA team will be signoff first or?
+How the CICD has Implemented ?
+what is the Deployment strategy you are following currently?
+How the Canary depployment is Advantageous compared to rolling method Deployments? and which is more accurate?
+what is your experience with Terraform and how you are handling terraform projects?
+How the appliactions has been deployed in Argocd? app of apps or application set?
+how the argocd has been Implemented?
+where the state files will be stored in terraform?
+Did you implement any VPC peering in the same cloud or onsite to public cloud peering?
+I heard that, in AWS everything we need to allow to connect via security group, even though in the same VPC? Do you think it is Dis advantage compared to Azure?
+in AWS there will be more down time, is that true? compared to Azure?
+Tell me about your experience with terraform?
+
+
+K8s ---
+Explain your current project and your activities in it.
+K8s Architecture.
+How do you upgrage k8s cluster.
+Pod Affinity and Node Affinity.
+HPA & VPA.
+
+GitHub Actions ---
+What is GitHub Actions Matrix strategy.
+How caching works in Github Actions.
+what is Stale branch.
+
+AWS ---
+ACM
+CloudTrail
+CloudFront
+CloudFormation.
+Cloud watch & how do you create a custom metric in AWS CloudWatch.
+How do you login to the ec2 instance if you've lost the .pem key?
+Public and Private Subnet, what makes it public and private??
+Where does NATGateway reside. 
+
+
+How do you give access to the user for a namespace in kubernetes cluster  ---> Role, ClusterRole, Cluster role binding
+What is ingress and why are you using istio ?
+Explain me the three tier architecture
+What are the types of services and explain each
+What is custom resource definition
+What are the kubernetes resources you know
+What is the role of container runtime and which runtime do you use and why?
+What is reverse proxy
+What is traffic mirroring in istio
