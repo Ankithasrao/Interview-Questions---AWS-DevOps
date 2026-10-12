@@ -31,4 +31,5 @@
 30. If the organization don't want to use Docker, How can you containerize an application ?
 31. Difference between ADD and COPY.
 32. If you there is a spike in the CPU, How will you get to know and What do you do ? what are the actions you take ?
-33. Do you have any questions for me ?
+33.Tell me one advantage and one disadvantage of using Argo CD for CD process ?
+34. Do you have any questions for me ?
