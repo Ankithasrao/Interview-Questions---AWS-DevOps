@@ -1,0 +1,154 @@
+ 𝗔𝗪𝗦 𝗗𝗲𝘃𝗢𝗽𝘀 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄 𝗦𝗲𝗿𝗶𝗲𝘀 – 𝗦𝗲𝘁 𝟯𝟭
+
+1. Tell me about yourself and your experience in DevOps ?
+2. Can you describe a challenge you faced in a CI/CD pipeline and how you resolved it ?
+3. How would you design scalable and secure CI/CD pipeline for an enterprise application ?
+4. What are the best security practices you followed in CI/CD pipeline ?
+5. How do you ensure zero downtime deployment in a production environment ?
+6. Write a bash script to check if a service is running and restart it if not ?
+7. How do you automate user creation in AWS using python ?
+8. Explain how terraform helps in infrastructure automation ?
+9. What are terraform modules, how do you use them ?
+10. How do you secure a Kubernetes cluster ?  
+11. What is the difference between Kubernetes deployment and stateful set ?
+12. How do you setup centralized logging in a Kubernetes environments ?
+13. Explain how Prometheus and Grafana will work togethers ?
+14. How do you detect and prevent secrets from being pushed to Git repositories ?
+15. What are some common container security vulnerabilities, and how do you mitigate them ?
+16. If a production deployment fails, What steps do you take to resolve it ? 
+17. A developer complains that their build is failing, how do you troubleshoot ?
+18. Difference between GitHub Actions and Jenkins ? 
+19. What is Helm in Kubernetes ?
+20. What is a zero trust security model ?
+21. What is OWASP Top 10 ?
+22. How do you manage application manage in Kubernetes ?
+23. What is an ansible playbook ?
+24. How do you troubleshoot high CPU usage in Kubernetes pod ? 
+25. How do you enforce security policies in AWS ?
+26. How do you handle disaster recovery in DevOps ? 
+
+𝗔𝗪𝗦 𝗗𝗲𝘃𝗢𝗽𝘀 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄 𝗦𝗲𝗿𝗶𝗲𝘀 – 𝗦𝗲𝘁 𝟯𝟮
+
+1. What is SonarQube and how it will work ? 
+2. How would you reduce the build time of your pipeline ?
+3. What is feature flag in app deployments ?  
+4. There is an web application, and its not working, how would you troubleshoot and which are all the area u will look into ? 
+5. What is private and public subnets ?
+6. If i have to host a web application in which subnet i have to host ?
+7. How would you secure your web application hosted in public subnet ?
+8. how will the application is deployed on Kubernetes cluster ?
+9. How many AWS accounts you were handling in the projects and What was your authentication strategy ?
+10. How can u convince your client to get rid of unattached EBS volumes by using lambda functions on a weekly basis ?
+11. So how lambda authorization works ? how is it get authorized to the EC2 instances ? 
+15. So what are all the permissions you feel like you need to give it to your lambda role ?
+16. What is the easiest way to move the EC2 instances from sandbox account to prod account ? 
+17. So client is having same accounts, with different CIDR blocks, different VPC's and  different regions, so how can i make a secure communication between these within private network ?
+18. What is the easiest way to restrict the people from using the different regions ?
+19. To creating load balancer and auto scalers in terraforms, what components u will put under tfvars as a variables ?
+20. Before u start working on the creation of LB, Auto Scalers and VPC, what are the questions you would ask your clients ?
+21. So you are managing 8 AWS accounts and in that 1 is for global users like POC account, How can you reduce the cost for that account? What are the steps u take ?
+22. Can u please explain the ideal pipeline using groovy code ?
+23. How your pipeline will be authenticated to your k8s cluster ?
+24. Explain helm which you have done in your project ? How and for what you have used helm ?
+
+ 𝗔𝗪𝗦 𝗗𝗲𝘃𝗢𝗽𝘀 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄 𝗦𝗲𝗿𝗶𝗲𝘀 – 𝗦𝗲𝘁 𝟯𝟯
+
+1.  How can you protect the data in the AWS instance ?
+2. Can you connect AWS to on-prem servers ?
+3. Explain about transit gateway and why we use transit gateway ?
+4. What are the provisioners available in terraform ? Can you explain me the use cases ?
+5. How do you reduce the size of DockerFile ?
+6. I have an EC2 instance named A, and i want to create another instance B, It should create an instance without deleting instance A, What can i do during this ?
+7. I have 3 nodes (small, medium and large) I want data load to only go to the large node, How can i do that ?
+8. When i deploy the pods, it should be deployed on large and medium, except small, how can i do that ?
+9. I am getting an error like, How can i debug it ? 
+	* Pods fails to schedule
+	* 0/5 nodes are available: Insufficient memory
+10. Difference between scaling and autoscaling ?
+11. If i don't mention TargetPort in service object, what is it going to do ?
+12. What are the different types of secrets in k8s ?
+13. I have an ingress object, but it is not routing the traffic to the Kubernetes cluster, what will be the reason ?
+14. I have created a service object, but it is not mapped to a deployment, what is the reason for that ?
+15. What are the different ways to specify the probes in k8s ?
+
+ 𝗔𝗪𝗦 𝗗𝗲𝘃𝗢𝗽𝘀 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄 𝗦𝗲𝗿𝗶𝗲𝘀 – 𝗦𝗲𝘁 𝟯𝟰
+
+1. Tell me about yourself and the day to day activities.
+2. How much you would rate yourself in writing the dockerfile.
+3. Can you share your screen and write a dockerfile for a python application.
+4. Can you explain each steps and where exactly the image will build.
+5. Why have you chose that base image.
+5. Explain the VPC architecture for the project you have built, explain the flow.
+6. What happens with private and public subnet.
+7. If I have to mask the IP address of the subnet, how can you do it.
+8. Can you write a custom inline policy for the IAM role (Gave a scenario with EKS)
+9. How can you do a AWS Cross-Account Communication Using IAM Roles.
+10. Where have you configure S3 buckets and how can you access it.
+11. Can you write a terraform code for creating a s3 bucket with the inline policy attached.
+12. Can share your screen and search for the features of s3 and add it to the terraform code. 
+13. Explain how do you do cost optimization using Lambda for S3 stale resources.
+14. Write a play book for installing and configuring Java on multiple servers. 
+15. Explain the complete CICD pipeline for an application, what are the stages you would prefer.
+16. How and where have you configured the Argo CD in Jenkins pipeline.
+17. Explain the how Argo CD will deploy the changes in Kubernetes.
+18. How can you configure the IAM roles for the service accounts in Kubernetes.
+19. Explain the flow of traffic with respect to pod, Ingress and service.
+20. How the deployment will identify the correct service.
+21. How can you trouble-shoot if the service is not creating.
+22. Can you explain blue-green deployment strategy with writing the manifests for the same.
+23. Explain how do you monitor the application with Prometheus and Grafana. 
+24. What exactly you do with Prometheus, how can you scarp the metrics.
+25. Have you worked on custom helm repos, explain about the charts you worked on.
+26. What is the command to get the processes in Linux.
+27. What is the is the output of df -h command, what all you get?
+28. Command to see number of CPU's.
+29. Can you write a shell script to find the processes which running on java and get the CPU utilization on the process which is equal to OR grater than 80%.
+30. If the organization don't want to use Docker, How can you containerize an application
+31. If you there is a spike in the CPU, How will you get to know and what are the actions you take?
+32.Tell me one advantage and one disadvantage of using Argo CD for CD process ?
+33. On what exactly you are working on now in the current project ?
+
+𝗔𝗪𝗦 𝗗𝗲𝘃𝗢𝗽𝘀 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄 𝗦𝗲𝗿𝗶𝗲𝘀 – 𝗦𝗲𝘁 𝟯𝟱
+
+1. Can you brief about your profile and experience ?
+2. How do you ensure the quality and reliability of a CI/CD pipeline, and what metrics do you use to track that ?
+3. How do you design a CI/CD pipeline for microservices architecture ?
+4. How do you handle rollbacks and disaster recovery in a CI/CD pipeline ?
+5. What are the different ways to trigger a Jenkins build ?
+6. How do you implement a CI/CD pipeline using Ansible ?
+7. You have a Ansible playbook, and it was saving in a specific host, How doyou troubleshoot that issue ?
+8. What is the difference between terraform apply and terraform apply auto-approve ?
+9.  How do you handle dependencies between the Terraform resources ?  
+10. Before creating EC2 instance, what are all the inputs you will receive from your clients ?
+11. How many AWS accounts u have used in you project and for what ?
+12. Difference between CloudFormation and Terraform ?
+13. How can u establish a communication between AWS and Jenkins ?
+14. How you are customizing the IAM policy and in what scenario you create customized IAM policy ? 
+15. Difference between AMI and snapshots ? 
+16. When would you suggest your clients, for having Elastic IP in their project ?
+17. In AWS, your having 20-30 accounts, how are you managing the cost, securing how your centralizing it to the account ?
+18. How you are managing the AWS logs and AWS events in your organizations ?
+19. Explain horizontal and vertical auto-scaling and which one you have used in your project ?
+20. Explain the concepts of CloudTrail and SNS in AWS using the use-cases ?
+
+𝗔𝗪𝗦 𝗗𝗲𝘃𝗢𝗽𝘀 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄 𝗦𝗲𝗿𝗶𝗲𝘀 – 𝗦𝗲𝘁 𝟯𝟲
+
+1) How many NAT Gateways are needed for two public & two private subnets in a single VPC? Min & max?
+2) Explain TTL in DNS—how does it work, and when do we use it? Explain the Flow.
+3) How does weighted routing work in LB?
+4) How Docker is operable on a Linux machine? Explain the docker architecture components.
+5) There are 1 Master & 3 Worker nodes—if the master fails, what happens? Will pods keep running or they will crash?
+6) In K8s, as etcd is a key-value store db, can write something manually on it?
+7) How to roll back a failed deployment in Docker & K8s?
+8) How does SSL work (Certbot, Let's Encrypt, AWS)? Explain the Flow.
+9) What are the top 5 infra attacks, and how do you mitigate them?
+10) If the tfstate file is lost, what do you do? With & without backup?
+11) In Linux systems there is the term Load Average? what does that mean? how it is being calculated? and in what format the load average output is?
+12) One of your worker nodes is not joining the cluster. How would you debug the issue?	
+13) What are your day to day activities in IAM ?
+14) Explain any IAM custom policy, that u have created in your project ? 
+15) How can you migrate from EC2 sandbox account to EC2 production account ?
+16) How can you create communication between sandbox account to production account in VPC ?
+17) So I have an Ec2 in public subnet with all the databases, the connection is secure, But for patching and all, Client wants access to internet connection , how can you do it ?
+18) How can you move S3 policy from standard to glacier for every 30 days ?
+
